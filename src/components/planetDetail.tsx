@@ -41,9 +41,8 @@ const PlanetCards: React.FC = () => {
       {bodies.map((body) => (
         <div key={body.id} onClick={() => handleCardClick(body.id)} >
           <h3>{body.englishName}</h3>
-          <p>Masa: {body.mass?.massValue} kg</p>
-          <p>Gravedad: {body.gravity} m/s²</p>
-          <p>Diámetro: {body.meanRadius} km</p>
+          <p>Click for more information</p>
+         
         </div>
       ))}
     </div>

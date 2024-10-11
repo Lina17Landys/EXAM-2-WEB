@@ -7,6 +7,7 @@ function DashBoard() {
 
   return (
     <>
+    <h1 className='title'>Welcome to Planets Facts</h1>
      <PlanetCardDetail/>
     </>
   )
